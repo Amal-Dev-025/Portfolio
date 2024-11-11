@@ -1,0 +1,94 @@
+/* Reset and Base Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+  }
+  
+  body {
+    line-height: 1.6;
+    color: #333;
+  }
+  
+  /* Header/Hero Section */
+  #hero {
+    text-align: center;
+    padding: 5rem 1rem;
+    background-color: #f4f4f4;
+  }
+  
+  #hero h1 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+  }
+  
+  .cta {
+    display: inline-block;
+    padding: 0.5rem 1.5rem;
+    margin-top: 1rem;
+    background-color: #333;
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  /* Section Titles */
+  section h2 {
+    text-align: center;
+    margin: 2rem 0;
+    font-size: 2rem;
+  }
+  
+  /* About Section */
+  #about {
+    padding: 2rem 1rem;
+    max-width: 800px;
+    margin: auto;
+  }
+  
+  /* Projects Section */
+  #projects .project {
+    background-color: #eaeaea;
+    padding: 1rem;
+    margin: 1rem;
+    border-radius: 8px;
+  }
+  
+  .button {
+    display: inline-block;
+    margin: 0.5rem 0.25rem;
+    padding: 0.5rem 1rem;
+    background-color: #333;
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  /* Skills Section */
+  #skills .skill-list span {
+    display: inline-block;
+    margin: 0.5rem;
+    padding: 0.5rem 1rem;
+    background-color: #ddd;
+    border-radius: 5px;
+  }
+  
+  /* Contact Section */
+  #contact {
+    padding: 2rem 1rem;
+    text-align: center;
+  }
+  
+  #contact-form input, #contact-form textarea {
+    width: 100%;
+    padding: 0.5rem;
+    margin-bottom: 1rem;
+  }
+  
+  button {
+    padding: 0.75rem 1.5rem;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+  }
+  
